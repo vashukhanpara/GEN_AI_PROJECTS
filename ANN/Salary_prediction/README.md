@@ -13,20 +13,22 @@ This project predicts whether a bank customer will churn (leave the bank) or not
 - ANN model using TensorFlow/Keras
 - Model evaluation
 
+---
+
 ## 📂 Project Structure
 
-```
-📁 Churn_prediction/
+Churn_prediction/
 │
-├── 📁 Data/
-│   └── 📄 Churn_Modelling.csv
+├── Data/
+│   └── Churn_Modelling.csv
 │
-├── 📁 Notebooks/
-│   └── 📓 experiment.ipynb
+├── Notebooks/
+│   └── experiment.ipynb
 │
-├── ⚙️ requirements.txt
-└── 📘 README.md
-```
+├── requirements.txt
+├── README.md
+
+---
 
 ## ⚙️ Installation & Setup
 

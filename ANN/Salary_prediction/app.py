@@ -1,3 +1,4 @@
+# if got anyerror in this last run should be experiments 
 import streamlit as st
 import numpy as np
 import tensorflow as tf
@@ -20,7 +21,7 @@ with open('scaler.pkl', 'rb') as file:
 
 
 ## streamlit app
-st.title('Customer Churn Prediction')
+st.title('Customer Churn PRediction')
 
 # User input will be different based on the different inputs 
 geography = st.selectbox('Geography', onehot_encoder_geo.categories_[0])
