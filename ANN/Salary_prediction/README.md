@@ -1,7 +1,7 @@
-# 🏦 Customer Churn Prediction using ANN
+# 🏦 Customer Salary Prediction using ANN
 
 ## 📌 Project Overview
-This project predicts whether a bank customer will churn (leave the bank) or not using an Artificial Neural Network (ANN). It uses customer data such as credit score, age, balance, and other features to make predictions.
+This project predicts salary using an Artificial Neural Network (ANN). It uses customer data such as credit score, age, balance, and other features to make predictions.
 
 ---
 
@@ -17,7 +17,7 @@ This project predicts whether a bank customer will churn (leave the bank) or not
 
 ## 📂 Project Structure
 
-Churn_prediction/
+Salary_prediction/
 │
 ├── Data/
 │   └── Churn_Modelling.csv
