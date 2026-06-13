@@ -9,7 +9,7 @@ import os
 
 BASE_DIR = os.path.dirname(__file__)
 
-model = pickle.load(open(os.path.join(BASE_DIR, 'model.pkl'), 'rb'))
+model = pickle.load(open(os.path.join(BASE_DIR, 'model.h5'), 'rb'))
 
 # Load encoders and scaler
 label_encoder_gender = pickle.load(open(os.path.join(BASE_DIR, 'label_encoder_gender.pkl'), 'rb'))
