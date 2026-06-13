@@ -5,13 +5,16 @@ import pandas as pd
 import pickle
 
 # Load sklearn model (NOT tensorflow)
-model = pickle.load(open('model.pkl', 'rb'))
+import os
+
+BASE_DIR = os.path.dirname(__file__)
+
+model = pickle.load(open(os.path.join(BASE_DIR, 'model.pkl'), 'rb'))
 
 # Load encoders and scaler
-label_encoder_gender = pickle.load(open('label_encoder_gender.pkl', 'rb'))
-onehot_encoder_geo = pickle.load(open('onehot_encoder_geo.pkl', 'rb'))
-scaler = pickle.load(open('scaler.pkl', 'rb'))
-
+label_encoder_gender = pickle.load(open(os.path.join(BASE_DIR, 'label_encoder_gender.pkl'), 'rb'))
+onehot_encoder_geo = pickle.load(open(os.path.join(BASE_DIR, 'onehot_encoder_geo.pkl'), 'rb'))
+scaler = pickle.load(open(os.path.join(BASE_DIR, 'scaler.pkl'), 'rb'))
 st.title('Customer Churn Prediction')
 
 # Inputs
